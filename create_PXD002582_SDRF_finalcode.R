@@ -236,3 +236,4 @@ cat("File size:", file.size(file_path), "bytes\n")
 cat("Columns:", ncol(sdrf), "\n")
 cat("Rows:", nrow(sdrf), "\n")
 
+if (nrow(sdrf) == 192) {message ("GOOD!.. GOOOOOOD!..")}
